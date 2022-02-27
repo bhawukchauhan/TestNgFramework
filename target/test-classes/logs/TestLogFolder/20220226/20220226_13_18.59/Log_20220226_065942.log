@@ -1,0 +1,65 @@
+2022-02-26 18:59:42.516 INFO  [TestBase.fnCreateResultsFolder] : Log file Created : D:\SeleniumProject\framework\src\test\resources\logs\TestLogFolder\20220226\20220226_13_18.59\Log_20220226_065942.log
+logging from sysout after redirecting
+2022-02-26 18:59:42.518 INFO  [TestBase.fnCreateResultsFolder] : Copying chromedriver.exe to the Results folder
+2022-02-26 18:59:42.518 INFO  [TestBase.fnCreateResultsFolder] : Copying chromedriver.exe to the Results folder is successful
+2022-02-26 18:59:42.518 INFO  [TestBase.fnAppSync] : Waiting for 2 second
+2022-02-26 18:59:45.027 INFO  [TestBase.fnCreateResultsFolder] : Java temp files directory : C:\Users\BHAWUK\AppData\Local\Temp\
+2022-02-26 18:59:45.028 DEBUG [TestBase.setUp] : Config file loaded
+2022-02-26 18:59:45.039 DEBUG [TestBase.setUp] : OR file loaded
+2022-02-26 18:59:46.206 DEBUG [TestBase.setUp] : Chrome launched
+2022-02-26 18:59:46.206 ERROR [TestBase.setUp] : Chrome launched
+2022-02-26 18:59:48.961 DEBUG [TestBase.setUp] : Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
+2022-02-26 18:59:49.122 DEBUG [BankManagerLoginTest.loginAsBankManager] : inside LoginTest
+//button[contains(text(),'Bank Manager Login')]
+2022-02-26 18:59:51.200 DEBUG [TestBase.isElementPresent] : element found
+2022-02-26 18:59:51.201 DEBUG [BankManagerLoginTest.loginAsBankManager] : login successfull
+2022-02-26 18:59:51.730 DEBUG [AddCustomerTest.getData] : inside getData
+2022-02-26 18:59:51.731 DEBUG [AddCustomerTest.getData] : rows : 3
+2022-02-26 18:59:51.731 DEBUG [AddCustomerTest.getData] : cols : 4
+2022-02-26 18:59:51.731 DEBUG [AddCustomerTest.getData] : data : [[Ljava.lang.Object;@36c7cbe1
+2022-02-26 18:59:51.736 DEBUG [AddCustomerTest.getData] : Rahul
+2022-02-26 18:59:51.737 DEBUG [AddCustomerTest.getData] : Arora
+2022-02-26 18:59:51.737 DEBUG [AddCustomerTest.getData] : A23wd
+2022-02-26 18:59:51.737 DEBUG [AddCustomerTest.getData] : Customer added successfully
+2022-02-26 18:59:51.737 DEBUG [AddCustomerTest.getData] : Naman
+2022-02-26 18:59:51.738 DEBUG [AddCustomerTest.getData] : Gupta
+2022-02-26 18:59:51.738 DEBUG [AddCustomerTest.getData] : N23wd
+2022-02-26 18:59:51.738 DEBUG [AddCustomerTest.getData] : Customer added successfully
+2022-02-26 18:59:51.740 DEBUG [AddCustomerTest.addCustomerTest] : Rahul Arora A23wd
+2022-02-26 18:59:51.740 DEBUG [AddCustomerTest.addCustomerTest] : inside addCustomer
+2022-02-26 18:59:51.786 DEBUG [AddCustomerTest.addCustomerTest] : clicked Add Customer
+2022-02-26 18:59:52.225 DEBUG [AddCustomerTest.addCustomerTest] : clicked firstName
+2022-02-26 18:59:52.286 DEBUG [AddCustomerTest.addCustomerTest] : clicked lastName
+2022-02-26 18:59:52.346 DEBUG [AddCustomerTest.addCustomerTest] : clicked postCode
+2022-02-26 18:59:54.409 DEBUG [AddCustomerTest.addCustomerTest] : clicked addCustButton
+2022-02-26 18:59:54.415 DEBUG [AddCustomerTest.addCustomerTest] : Customer added successfully with customer id :6
+2022-02-26 18:59:56.721 DEBUG [AddCustomerTest.addCustomerTest] : Naman Gupta N23wd
+2022-02-26 18:59:56.721 DEBUG [AddCustomerTest.addCustomerTest] : inside addCustomer
+2022-02-26 18:59:56.766 DEBUG [AddCustomerTest.addCustomerTest] : clicked Add Customer
+2022-02-26 18:59:56.821 DEBUG [AddCustomerTest.addCustomerTest] : clicked firstName
+2022-02-26 18:59:56.867 DEBUG [AddCustomerTest.addCustomerTest] : clicked lastName
+2022-02-26 18:59:56.913 DEBUG [AddCustomerTest.addCustomerTest] : clicked postCode
+2022-02-26 18:59:58.987 DEBUG [AddCustomerTest.addCustomerTest] : clicked addCustButton
+2022-02-26 18:59:58.990 DEBUG [AddCustomerTest.addCustomerTest] : Customer added successfully with customer id :7
+2022-02-26 19:00:01.291 DEBUG [OpenAccountTest.getData] : inside getData
+2022-02-26 19:00:01.292 DEBUG [OpenAccountTest.getData] : rows : 2
+2022-02-26 19:00:01.292 DEBUG [OpenAccountTest.getData] : cols : 2
+2022-02-26 19:00:01.292 DEBUG [OpenAccountTest.getData] : data : [[Ljava.lang.Object;@13866329
+2022-02-26 19:00:01.292 DEBUG [OpenAccountTest.getData] : Harry
+2022-02-26 19:00:01.292 DEBUG [OpenAccountTest.getData] : Rupee
+2022-02-26 19:00:01.293 DEBUG [OpenAccountTest.openAccountTest] : Harry Rupee
+2022-02-26 19:00:01.293 DEBUG [OpenAccountTest.openAccountTest] : inside openAccountTest
+2022-02-26 19:00:03.337 DEBUG [OpenAccountTest.openAccountTest] : clicked open Account
+2022-02-26 19:00:03.444 DEBUG [OpenAccountTest.openAccountTest] : selected customer : Harry
+2022-02-26 19:00:03.522 DEBUG [OpenAccountTest.openAccountTest] : selected currency : Rupee
+2022-02-26 19:00:05.586 DEBUG [OpenAccountTest.openAccountTest] : clicked Process button
+2022-02-26 19:00:05.589 DEBUG [OpenAccountTest.openAccountTest] : Account created successfully with account Number :1016
+2022-02-26 19:00:07.614 DEBUG [OpenAccountTest.openAccountTest] : open Account successfully Harry Rupee
+2022-02-26 19:00:07.624 DEBUG [OpenAccountTest.openAccountTest] : no such alert
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-197M06D', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\BHAWUK\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55915}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62ed7a2c8e6d1f6be1be56428f392ca5
+2022-02-26 19:00:08.616 DEBUG [TestBase.tearDown] : test execution complete

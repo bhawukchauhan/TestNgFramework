@@ -1,0 +1,57 @@
+2022-02-26 15:35:27.656 INFO  [TestBase.fnCreateResultsFolder] : Log file Created : D:\SeleniumProject\framework\src\test\resources\logs\TestLogFolder\20220226\20220226_4_15.35\Log_20220226_033527.log
+logging from sysout after redirecting
+2022-02-26 15:35:27.658 INFO  [TestBase.fnCreateResultsFolder] : Copying chromedriver.exe to the Results folder
+2022-02-26 15:35:27.658 INFO  [TestBase.fnCreateResultsFolder] : Copying chromedriver.exe to the Results folder is successful
+2022-02-26 15:35:27.658 INFO  [TestBase.fnAppSync] : Waiting for 2 second
+2022-02-26 15:35:30.177 INFO  [TestBase.fnCreateResultsFolder] : Java temp files directory : C:\Users\BHAWUK\AppData\Local\Temp\
+2022-02-26 15:35:30.178 DEBUG [TestBase.setUp] : Config file loaded
+2022-02-26 15:35:30.188 DEBUG [TestBase.setUp] : OR file loaded
+2022-02-26 15:35:31.363 DEBUG [TestBase.setUp] : Chrome launched
+2022-02-26 15:35:31.363 ERROR [TestBase.setUp] : Chrome launched
+2022-02-26 15:35:34.589 DEBUG [TestBase.setUp] : Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
+2022-02-26 15:35:34.738 DEBUG [BankManagerLoginTest.loginAsBankManager] : inside LoginTest
+//button[contains(text(),'Bank Manager Login')]
+2022-02-26 15:35:36.867 DEBUG [TestBase.isElementPresent] : element found
+2022-02-26 15:35:36.868 DEBUG [BankManagerLoginTest.loginAsBankManager] : login successfull
+2022-02-26 15:35:37.340 DEBUG [AddCustomerTest.getData] : inside getData
+2022-02-26 15:35:37.342 DEBUG [AddCustomerTest.getData] : rows : 2
+2022-02-26 15:35:37.342 DEBUG [AddCustomerTest.getData] : cols : 4
+2022-02-26 15:35:37.342 DEBUG [AddCustomerTest.getData] : data : [[Ljava.lang.Object;@77b5148c
+2022-02-26 15:35:37.346 DEBUG [AddCustomerTest.getData] : Raman
+2022-02-26 15:35:37.346 DEBUG [AddCustomerTest.getData] : Arora
+2022-02-26 15:35:37.346 DEBUG [AddCustomerTest.getData] : A23wd
+2022-02-26 15:35:37.346 DEBUG [AddCustomerTest.getData] : Customer added successfully
+2022-02-26 15:35:37.348 DEBUG [AddCustomerTest.addCustomerTest] : Raman Arora A23wd
+2022-02-26 15:35:37.348 DEBUG [AddCustomerTest.addCustomerTest] : inside addCustomer
+2022-02-26 15:35:37.383 DEBUG [AddCustomerTest.addCustomerTest] : clicked Add Customer
+2022-02-26 15:35:37.814 DEBUG [AddCustomerTest.addCustomerTest] : clicked firstName
+2022-02-26 15:35:37.865 DEBUG [AddCustomerTest.addCustomerTest] : clicked lastName
+2022-02-26 15:35:37.920 DEBUG [AddCustomerTest.addCustomerTest] : clicked postCode
+2022-02-26 15:35:39.976 DEBUG [AddCustomerTest.addCustomerTest] : clicked addCustButton
+2022-02-26 15:35:39.981 DEBUG [AddCustomerTest.addCustomerTest] : Customer added successfully with customer id :6
+2022-02-26 15:35:42.289 DEBUG [OpenAccountTest.getData] : inside getData
+2022-02-26 15:35:42.290 DEBUG [OpenAccountTest.getData] : rows : 2
+2022-02-26 15:35:42.290 DEBUG [OpenAccountTest.getData] : cols : 2
+2022-02-26 15:35:42.290 DEBUG [OpenAccountTest.getData] : data : [[Ljava.lang.Object;@21390938
+2022-02-26 15:35:42.290 DEBUG [OpenAccountTest.getData] : Harry
+2022-02-26 15:35:42.290 DEBUG [OpenAccountTest.getData] : Rupee
+2022-02-26 15:35:42.292 DEBUG [OpenAccountTest.openAccountTest] : Harry Rupee
+2022-02-26 15:35:42.292 DEBUG [OpenAccountTest.openAccountTest] : inside openAccountTest
+2022-02-26 15:35:44.329 DEBUG [OpenAccountTest.openAccountTest] : clicked open Account
+2022-02-26 15:35:44.349 DEBUG [OpenAccountTest.openAccountTest] : invalid selector: Unable to locate an element with the xpath expression accountCustomer=//button[contains(text(),'Open Account')] because of the following error:
+TypeError: Failed to execute 'evaluate' on 'Document': The result is not a node set, and therefore cannot be converted to the desired type.
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-197M06D', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\BHAWUK\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53973}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d10d79215062e895b25b2f9f2ca3f02
+*** Element info: {Using=xpath, value=accountCustomer=//button[contains(text(),'Open Account')]}
+2022-02-26 15:35:45.222 DEBUG [TestBase.tearDown] : test execution complete
+
+===============================================
+Data driven basics
+Total tests run: 3, Failures: 0, Skips: 0
+===============================================
+

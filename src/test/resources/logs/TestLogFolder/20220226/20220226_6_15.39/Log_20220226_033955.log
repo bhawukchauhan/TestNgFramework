@@ -1,0 +1,52 @@
+2022-02-26 15:39:55.379 INFO  [TestBase.fnCreateResultsFolder] : Log file Created : D:\SeleniumProject\framework\src\test\resources\logs\TestLogFolder\20220226\20220226_6_15.39\Log_20220226_033955.log
+logging from sysout after redirecting
+2022-02-26 15:39:55.380 INFO  [TestBase.fnCreateResultsFolder] : Copying chromedriver.exe to the Results folder
+2022-02-26 15:39:55.380 INFO  [TestBase.fnCreateResultsFolder] : Copying chromedriver.exe to the Results folder is successful
+2022-02-26 15:39:55.381 INFO  [TestBase.fnAppSync] : Waiting for 2 second
+2022-02-26 15:39:57.885 INFO  [TestBase.fnCreateResultsFolder] : Java temp files directory : C:\Users\BHAWUK\AppData\Local\Temp\
+2022-02-26 15:39:57.886 DEBUG [TestBase.setUp] : Config file loaded
+2022-02-26 15:39:57.888 DEBUG [TestBase.setUp] : OR file loaded
+2022-02-26 15:39:59.055 DEBUG [TestBase.setUp] : Chrome launched
+2022-02-26 15:39:59.055 ERROR [TestBase.setUp] : Chrome launched
+2022-02-26 15:40:02.898 DEBUG [TestBase.setUp] : Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
+2022-02-26 15:40:03.030 DEBUG [BankManagerLoginTest.loginAsBankManager] : inside LoginTest
+//button[contains(text(),'Bank Manager Login')]
+2022-02-26 15:40:05.087 DEBUG [TestBase.isElementPresent] : element found
+2022-02-26 15:40:05.088 DEBUG [BankManagerLoginTest.loginAsBankManager] : login successfull
+2022-02-26 15:40:05.594 DEBUG [AddCustomerTest.getData] : inside getData
+2022-02-26 15:40:05.595 DEBUG [AddCustomerTest.getData] : rows : 2
+2022-02-26 15:40:05.595 DEBUG [AddCustomerTest.getData] : cols : 4
+2022-02-26 15:40:05.596 DEBUG [AddCustomerTest.getData] : data : [[Ljava.lang.Object;@36359723
+2022-02-26 15:40:05.600 DEBUG [AddCustomerTest.getData] : Raman
+2022-02-26 15:40:05.601 DEBUG [AddCustomerTest.getData] : Arora
+2022-02-26 15:40:05.601 DEBUG [AddCustomerTest.getData] : A23wd
+2022-02-26 15:40:05.601 DEBUG [AddCustomerTest.getData] : Customer added successfully
+2022-02-26 15:40:05.604 DEBUG [AddCustomerTest.addCustomerTest] : Raman Arora A23wd
+2022-02-26 15:40:05.604 DEBUG [AddCustomerTest.addCustomerTest] : inside addCustomer
+2022-02-26 15:40:05.638 DEBUG [AddCustomerTest.addCustomerTest] : clicked Add Customer
+2022-02-26 15:40:06.072 DEBUG [AddCustomerTest.addCustomerTest] : clicked firstName
+2022-02-26 15:40:06.121 DEBUG [AddCustomerTest.addCustomerTest] : clicked lastName
+2022-02-26 15:40:06.167 DEBUG [AddCustomerTest.addCustomerTest] : clicked postCode
+2022-02-26 15:40:08.221 DEBUG [AddCustomerTest.addCustomerTest] : clicked addCustButton
+2022-02-26 15:40:08.227 DEBUG [AddCustomerTest.addCustomerTest] : Customer added successfully with customer id :6
+2022-02-26 15:40:10.496 DEBUG [OpenAccountTest.getData] : inside getData
+2022-02-26 15:40:10.497 DEBUG [OpenAccountTest.getData] : rows : 2
+2022-02-26 15:40:10.497 DEBUG [OpenAccountTest.getData] : cols : 2
+2022-02-26 15:40:10.497 DEBUG [OpenAccountTest.getData] : data : [[Ljava.lang.Object;@6221b13b
+2022-02-26 15:40:10.497 DEBUG [OpenAccountTest.getData] : Harry
+2022-02-26 15:40:10.497 DEBUG [OpenAccountTest.getData] : Rupee
+2022-02-26 15:40:10.498 DEBUG [OpenAccountTest.openAccountTest] : Harry Rupee
+2022-02-26 15:40:10.498 DEBUG [OpenAccountTest.openAccountTest] : inside openAccountTest
+2022-02-26 15:40:12.546 DEBUG [OpenAccountTest.openAccountTest] : clicked open Account
+2022-02-26 15:40:12.611 DEBUG [OpenAccountTest.openAccountTest] : selected customer : Harry
+2022-02-26 15:40:12.667 DEBUG [OpenAccountTest.openAccountTest] : selected currency : Rupee
+2022-02-26 15:40:14.701 DEBUG [OpenAccountTest.openAccountTest] : clicked Process button
+2022-02-26 15:40:14.703 DEBUG [OpenAccountTest.openAccountTest] : Account created successfully with account Number :1016
+2022-02-26 15:40:16.720 DEBUG [OpenAccountTest.openAccountTest] : open Account successfully Harry Rupee
+2022-02-26 15:40:17.697 DEBUG [TestBase.tearDown] : test execution complete
+
+===============================================
+Data driven basics
+Total tests run: 3, Failures: 0, Skips: 0
+===============================================
+
