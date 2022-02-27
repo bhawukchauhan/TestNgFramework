@@ -33,6 +33,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -102,7 +103,11 @@ public class TestBase {
 			} else if (config.getProperty("browser").equals("chrome")) {
 				System.setProperty("webdriver.chrome.driver",
 						System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
-				driver = new ChromeDriver();
+				
+				ChromeOptions options = new ChromeOptions();
+				options.setHeadless(true);
+				driver = new ChromeDriver(options);
+				//driver = new ChromeDriver();
 				log.debug("Chrome launched");
 				log.error("Chrome launched");
 			}
