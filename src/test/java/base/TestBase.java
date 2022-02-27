@@ -103,11 +103,12 @@ public class TestBase {
 			} else if (config.getProperty("browser").equals("chrome")) {
 				System.setProperty("webdriver.chrome.driver",
 						System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
-				
+				/*
 				ChromeOptions options = new ChromeOptions();
 				options.setHeadless(true);
 				driver = new ChromeDriver(options);
-				//driver = new ChromeDriver();
+				*/
+				driver = new ChromeDriver();
 				log.debug("Chrome launched");
 				log.error("Chrome launched");
 			}
